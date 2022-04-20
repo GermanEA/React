@@ -1,4 +1,4 @@
-import { getHeroeById } from './08-imp-exp'
+import { getHeroeById } from './08-imp-exp';
 
 export const getHeroeByIdAsync = ( id ) => {
 
@@ -16,4 +16,6 @@ export const getHeroeByIdAsync = ( id ) => {
         }, 1500 )
     
     });
+
+
 }
